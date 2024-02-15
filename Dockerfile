@@ -1,3 +1,5 @@
-from ubuntu:22.04
-RUN apt update
-    apt install nginx
+FROM ubuntu:22.04
+
+RUN apt update && \
+    apt install -y nginx
+
