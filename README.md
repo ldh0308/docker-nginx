@@ -5,4 +5,8 @@ sudo docker ps -a -q
 
 # Step #1
 - DockerHub에서 ubuntu pull & run
+```bash
 $ sudo docker pull ubuntu:22.04
+
+
+```
