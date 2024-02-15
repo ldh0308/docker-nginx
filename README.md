@@ -8,5 +8,5 @@ sudo docker ps -a -q
 ```bash
 $ sudo docker pull ubuntu:22.04
 
-
+$ sudo docker run -it --name utuntu -d ubuntu:22.04
 ```
